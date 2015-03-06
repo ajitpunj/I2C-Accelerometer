@@ -1,0 +1,42 @@
+Dependencies for Project 'hello', Target 'hello': (DO NOT MODIFY !)
+F (.\startup_rvmdk.S)(0x54CFEDAD)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\RTE-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 513" --pd "TM4C123GH6PM SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (C:\ti\TivaWare_C_Series-1.1\utils\uartstdio.c)(0x54ACE78F)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-1.1 -IC:\ti\TivaWare_C_Series-1.1\examples\lab3part3 --c99-I C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\RTE-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5476D400)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476D400)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476D3FA)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_ints.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_memmap.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_types.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_uart.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\debug.h)(0x54ACE738)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\interrupt.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\rom.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\rom_map.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\sysctl.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\uart.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\utils\uartstdio.h)(0x54ACE78F)
+F (.\oled_display_functions.c)(0x54E5106E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-1.1 -IC:\ti\TivaWare_C_Series-1.1\examples\lab3part3 --c99-I C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\RTE-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\oled_display_functions.o --omf_browse .\rvmdk\oled_display_functions.crf --depend .\rvmdk\oled_display_functions.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5476D400)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5476D400)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_memmap.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_types.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_gpio.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_ints.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\inc\hw_nvic.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\debug.h)(0x54ACE738)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\fpu.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\gpio.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\pin_map.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\rom.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\sysctl.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\interrupt.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\uart.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\utils\uartstdio.h)(0x54ACE78F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476D3FA)
+I (C:\ti\TivaWare_C_Series-1.1\inc\tm4c123gh6pm.h)(0x54ACE75F)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\timer.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\systick.h)(0x54ACE739)
+I (C:\ti\TivaWare_C_Series-1.1\driverlib\ssi.h)(0x54ACE739)
+I (glcdfont.c)(0x54C978FA)
+F (.\glcdfont.c)(0x54C978FA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -IC:\ti\TivaWare_C_Series-1.1 -IC:\ti\TivaWare_C_Series-1.1\examples\lab3part3 --c99-I C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\RTE-I C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\glcdfont.o --omf_browse .\rvmdk\glcdfont.crf --depend .\rvmdk\glcdfont.d)
+F (C:\ti\TivaWare_C_Series-1.1\driverlib\rvmdk\driverlib.lib)(0x54ACE73A)()

@@ -1,0 +1,239 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.13.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ajit Punj, UCD, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.13.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.13.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\hello.uvprojx
+Project File Date:  02/11/2015
+
+<h2>Output:</h2>
+Rebuild target 'hello'
+assembling startup_rvmdk.S...
+compiling uartstdio.c...
+compiling oled_display_functions.c...
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(48): warning:  #47-D: incompatible redefinition of macro "INT_GPIOA" (declared at line 238 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOA               16          // GPIO Port A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(49): warning:  #47-D: incompatible redefinition of macro "INT_GPIOB" (declared at line 239 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOB               17          // GPIO Port B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(50): warning:  #47-D: incompatible redefinition of macro "INT_GPIOC" (declared at line 240 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOC               18          // GPIO Port C
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(51): warning:  #47-D: incompatible redefinition of macro "INT_GPIOD" (declared at line 241 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOD               19          // GPIO Port D
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(52): warning:  #47-D: incompatible redefinition of macro "INT_GPIOE" (declared at line 242 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOE               20          // GPIO Port E
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(53): warning:  #47-D: incompatible redefinition of macro "INT_UART0" (declared at line 304 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART0               21          // UART0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(54): warning:  #47-D: incompatible redefinition of macro "INT_UART1" (declared at line 305 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART1               22          // UART1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(55): warning:  #47-D: incompatible redefinition of macro "INT_SSI0" (declared at line 286 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SSI0                23          // SSI0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(56): warning:  #47-D: incompatible redefinition of macro "INT_I2C0" (declared at line 268 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_I2C0                24          // I2C0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(57): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_FAULT" (declared at line 278 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM0_FAULT          25          // PWM0 Fault
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(58): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_0" (declared at line 274 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM0_0              26          // PWM0 Generator 0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(59): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_1" (declared at line 275 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM0_1              27          // PWM0 Generator 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(60): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_2" (declared at line 276 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM0_2              28          // PWM0 Generator 2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(61): warning:  #47-D: incompatible redefinition of macro "INT_QEI0" (declared at line 284 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_QEI0                29          // QEI0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(62): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS0" (declared at line 224 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC0SS0             30          // ADC0 Sequence 0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(63): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS1" (declared at line 225 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC0SS1             31          // ADC0 Sequence 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(64): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS2" (declared at line 226 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC0SS2             32          // ADC0 Sequence 2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(65): warning:  #47-D: incompatible redefinition of macro "INT_ADC0SS3" (declared at line 227 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC0SS3             33          // ADC0 Sequence 3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(66): warning:  #47-D: incompatible redefinition of macro "INT_WATCHDOG" (declared at line 315 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WATCHDOG            34          // Watchdog Timers 0 and 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(67): warning:  #47-D: incompatible redefinition of macro "INT_TIMER0A" (declared at line 292 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER0A             35          // 16/32-Bit Timer 0A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(68): warning:  #47-D: incompatible redefinition of macro "INT_TIMER0B" (declared at line 293 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER0B             36          // 16/32-Bit Timer 0B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(69): warning:  #47-D: incompatible redefinition of macro "INT_TIMER1A" (declared at line 294 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER1A             37          // 16/32-Bit Timer 1A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(70): warning:  #47-D: incompatible redefinition of macro "INT_TIMER1B" (declared at line 295 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER1B             38          // 16/32-Bit Timer 1B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(71): warning:  #47-D: incompatible redefinition of macro "INT_TIMER2A" (declared at line 296 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER2A             39          // 16/32-Bit Timer 2A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(72): warning:  #47-D: incompatible redefinition of macro "INT_TIMER2B" (declared at line 297 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER2B             40          // 16/32-Bit Timer 2B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(73): warning:  #47-D: incompatible redefinition of macro "INT_COMP0" (declared at line 234 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_COMP0               41          // Analog Comparator 0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(74): warning:  #47-D: incompatible redefinition of macro "INT_COMP1" (declared at line 235 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_COMP1               42          // Analog Comparator 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(75): warning:  #47-D: incompatible redefinition of macro "INT_SYSCTL" (declared at line 290 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SYSCTL              44          // System Control
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(76): warning:  #47-D: incompatible redefinition of macro "INT_FLASH" (declared at line 237 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_FLASH               45          // Flash Memory Control and EEPROM
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(78): warning:  #47-D: incompatible redefinition of macro "INT_GPIOF" (declared at line 243 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_GPIOF               46          // GPIO Port F
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(79): warning:  #47-D: incompatible redefinition of macro "INT_UART2" (declared at line 306 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART2               49          // UART2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(80): warning:  #47-D: incompatible redefinition of macro "INT_SSI1" (declared at line 287 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SSI1                50          // SSI1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(81): warning:  #47-D: incompatible redefinition of macro "INT_TIMER3A" (declared at line 298 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER3A             51          // Timer 3A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(82): warning:  #47-D: incompatible redefinition of macro "INT_TIMER3B" (declared at line 299 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER3B             52          // Timer 3B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(83): warning:  #47-D: incompatible redefinition of macro "INT_I2C1" (declared at line 269 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_I2C1                53          // I2C1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(84): warning:  #47-D: incompatible redefinition of macro "INT_QEI1" (declared at line 285 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_QEI1                54          // QEI1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(85): warning:  #47-D: incompatible redefinition of macro "INT_CAN0" (declared at line 232 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_CAN0                55          // CAN0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(86): warning:  #47-D: incompatible redefinition of macro "INT_CAN1" (declared at line 233 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_CAN1                56          // CAN1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(87): warning:  #47-D: incompatible redefinition of macro "INT_HIBERNATE" (declared at line 267 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_HIBERNATE           59          // Hibernation Module
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(88): warning:  #47-D: incompatible redefinition of macro "INT_USB0" (declared at line 314 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_USB0                60          // USB
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(89): warning:  #47-D: incompatible redefinition of macro "INT_PWM0_3" (declared at line 277 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM0_3              61          // PWM Generator 3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(90): warning:  #47-D: incompatible redefinition of macro "INT_UDMA" (declared at line 312 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UDMA                62          // uDMA Software
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(91): warning:  #47-D: incompatible redefinition of macro "INT_UDMAERR" (declared at line 313 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UDMAERR             63          // uDMA Error
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(92): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS0" (declared at line 228 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC1SS0             64          // ADC1 Sequence 0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(93): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS1" (declared at line 229 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC1SS1             65          // ADC1 Sequence 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(94): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS2" (declared at line 230 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC1SS2             66          // ADC1 Sequence 2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(95): warning:  #47-D: incompatible redefinition of macro "INT_ADC1SS3" (declared at line 231 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_ADC1SS3             67          // ADC1 Sequence 3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(96): warning:  #47-D: incompatible redefinition of macro "INT_SSI2" (declared at line 288 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SSI2                73          // SSI2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(97): warning:  #47-D: incompatible redefinition of macro "INT_SSI3" (declared at line 289 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SSI3                74          // SSI3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(98): warning:  #47-D: incompatible redefinition of macro "INT_UART3" (declared at line 307 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART3               75          // UART3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(99): warning:  #47-D: incompatible redefinition of macro "INT_UART4" (declared at line 308 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART4               76          // UART4
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(100): warning:  #47-D: incompatible redefinition of macro "INT_UART5" (declared at line 309 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART5               77          // UART5
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(101): warning:  #47-D: incompatible redefinition of macro "INT_UART6" (declared at line 310 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART6               78          // UART6
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(102): warning:  #47-D: incompatible redefinition of macro "INT_UART7" (declared at line 311 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_UART7               79          // UART7
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(103): warning:  #47-D: incompatible redefinition of macro "INT_I2C2" (declared at line 270 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_I2C2                84          // I2C2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(104): warning:  #47-D: incompatible redefinition of macro "INT_I2C3" (declared at line 271 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_I2C3                85          // I2C3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(105): warning:  #47-D: incompatible redefinition of macro "INT_TIMER4A" (declared at line 300 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER4A             86          // 16/32-Bit Timer 4A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(106): warning:  #47-D: incompatible redefinition of macro "INT_TIMER4B" (declared at line 301 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER4B             87          // 16/32-Bit Timer 4B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(107): warning:  #47-D: incompatible redefinition of macro "INT_TIMER5A" (declared at line 302 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER5A             108         // 16/32-Bit Timer 5A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(108): warning:  #47-D: incompatible redefinition of macro "INT_TIMER5B" (declared at line 303 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_TIMER5B             109         // 16/32-Bit Timer 5B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(109): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER0A" (declared at line 316 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER0A            110         // 32/64-Bit Timer 0A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(110): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER0B" (declared at line 317 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER0B            111         // 32/64-Bit Timer 0B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(111): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER1A" (declared at line 318 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER1A            112         // 32/64-Bit Timer 1A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(112): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER1B" (declared at line 319 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER1B            113         // 32/64-Bit Timer 1B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(113): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER2A" (declared at line 320 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER2A            114         // 32/64-Bit Timer 2A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(114): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER2B" (declared at line 321 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER2B            115         // 32/64-Bit Timer 2B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(115): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER3A" (declared at line 322 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER3A            116         // 32/64-Bit Timer 3A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(116): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER3B" (declared at line 323 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER3B            117         // 32/64-Bit Timer 3B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(117): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER4A" (declared at line 324 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER4A            118         // 32/64-Bit Timer 4A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(118): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER4B" (declared at line 325 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER4B            119         // 32/64-Bit Timer 4B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(119): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER5A" (declared at line 326 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER5A            120         // 32/64-Bit Timer 5A
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(120): warning:  #47-D: incompatible redefinition of macro "INT_WTIMER5B" (declared at line 327 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_WTIMER5B            121         // 32/64-Bit Timer 5B
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(121): warning:  #47-D: incompatible redefinition of macro "INT_SYSEXC" (declared at line 291 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_SYSEXC              122         // System Exception (imprecise)
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(122): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_0" (declared at line 279 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM1_0              150         // PWM1 Generator 0
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(123): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_1" (declared at line 280 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM1_1              151         // PWM1 Generator 1
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(124): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_2" (declared at line 281 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM1_2              152         // PWM1 Generator 2
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(125): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_3" (declared at line 282 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM1_3              153         // PWM1 Generator 3
+C:\ti\TivaWare_C_Series-1.1\inc/tm4c123gh6pm.h(126): warning:  #47-D: incompatible redefinition of macro "INT_PWM1_FAULT" (declared at line 283 of "C:\ti\TivaWare_C_Series-1.1\inc/hw_ints.h")
+  #define INT_PWM1_FAULT          154         // PWM1 Fault
+oled_display_functions.c(290): warning:  #223-D: function "fillRect" declared implicitly
+    fillRect(0, 0, SSD1351WIDTH, SSD1351HEIGHT, fillcolor);
+oled_display_functions.c(732): warning:  #223-D: function "abs" declared implicitly
+    int steep = abs(y1 - y0) > abs(x1 - x0);
+oled_display_functions.c(789): warning:  #177-D: variable "fromUARTChar1" was declared but never referenced
+      int fromUARTChar1, fromUartChar2;
+oled_display_functions.c(844): warning:  #177-D: variable "resetInt" was declared but never referenced
+                int resetInt=0;
+oled_display_functions.c(1138): warning:  #111-D: statement is unreachable
+        return 0;
+oled_display_functions.c(1139): warning:  #1-D: last line of file ends without a newline
+  }
+oled_display_functions.c(899): warning:  #550-D: variable "buttonPressed" was set but never used
+        int buttonPressed;
+oled_display_functions.c(900): warning:  #177-D: variable "oldButtonPressed" was declared but never referenced
+        int oldButtonPressed=-1;
+oled_display_functions.c(901): warning:  #177-D: variable "amountPressed" was declared but never referenced
+        int amountPressed=0;
+oled_display_functions.c(902): warning:  #550-D: variable "toPrint" was set but never used
+        char toPrint;
+oled_display_functions.c(903): warning:  #177-D: variable "charXValue" was declared but never referenced
+        int charXValue=0;
+oled_display_functions.c(904): warning:  #177-D: variable "charYValue" was declared but never referenced
+        int charYValue=0;
+oled_display_functions.c(906): warning:  #177-D: variable "bitValues" was declared but never referenced
+        int bitValues[32];
+oled_display_functions.c(907): warning:  #177-D: variable "pulseWidth" was declared but never referenced
+          int pulseWidth=0;
+oled_display_functions.c(908): warning:  #177-D: variable "arrayPos" was declared but never referenced
+          int arrayPos=0;
+oled_display_functions.c(909): warning:  #177-D: variable "buttonBreak" was declared but never referenced
+      int buttonBreak=0;
+oled_display_functions.c(926): warning:  #177-D: variable "PLAYER" was declared but never referenced
+      const int PLAYER=1;//TODO: CHANGE TO 1 OR 2 DEPENDING ON PLAYER
+oled_display_functions.c: 95 warnings, 0 errors
+compiling glcdfont.c...
+glcdfont.c(13): warning:  #177-D: variable "font" was declared but never referenced
+  static const unsigned char  font[] PROGMEM = {
+glcdfont.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5360 RO-data=768 RW-data=72 ZI-data=640  
+After Build - User command #1: fromelf --bin --output .\rvmdk\hello.bin .\rvmdk\hello.axf
+".\rvmdk\hello.axf" - 0 Error(s), 96 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\ti\TivaWare_C_Series-1.1\examples\lab3part3\RTE
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.0.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
